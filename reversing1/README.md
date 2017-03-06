@@ -1,5 +1,5 @@
 #Reversing Question 1
-We are given the [mi6.exe](mit6.exe) binary. And the following cipher.
+We are given the [mi6.exe](mi6.exe) binary. And the following cipher.
 ```
 26 25 30 28 22 25 20 23 21 29 22 24 26 23 21 26 27 20 28 22 25 23 30 29 23 28 24 20 
 21 26 25 20 23 27 23 29 25 22 23 26 27 29 24 23 30 21 25 24 26 20 24 22 21 30 26 20 

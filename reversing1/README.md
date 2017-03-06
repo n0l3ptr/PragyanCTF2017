@@ -51,9 +51,9 @@ else
 fi
 ```
 
-Looks like the interesting file is the first argument to installer reverse_1.rb. After executing the ruby script I saw the prompt that I was looking for. [This](reversing1/reverse_1.rb) is the script.
+Looks like the interesting file is the first argument to installer reverse_1.rb. After executing the ruby script I saw the prompt that I was looking for. [This](reverse_1.rb) is the script.
 
 After looking up some basic ruby. I decided to add some print statements to see what was going on. I realized our input was converted to uppercase and then each character was xor'ed with 61 and then split into a sum made up of values from 20 to 30.
-So given the cipher text we do not know how many numbers makes up one letter. I created a small [script](reversing1/solve.py) that would let me guess the values in the flag.
+So given the cipher text we do not know how many numbers makes up one letter. I created a small [script](solve.py) that would let me guess the values in the flag.
 
 The final flag was: pragyanctf{flagsarecool}

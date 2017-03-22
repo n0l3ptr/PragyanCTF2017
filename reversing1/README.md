@@ -1,13 +1,13 @@
-#Reversing Question 1
+# Reversing Question 1
 We are given the [mi6.exe](mi6.exe) binary. And the following cipher.
 ```
-26 25 30 28 22 25 20 23 21 29 22 24 26 23 21 26 27 20 28 22 25 23 30 29 23 28 24 20 
-21 26 25 20 23 27 23 29 25 22 23 26 27 29 24 23 30 21 25 24 26 20 24 22 21 30 26 20 
-25 24 21 23 27 29 26 22 20 21 23 22 30 26 29 26 28 27 22 20 27 29 26 30 28 27 26 23 
+26 25 30 28 22 25 20 23 21 29 22 24 26 23 21 26 27 20 28 22 25 23 30 29 23 28 24 20
+21 26 25 20 23 27 23 29 25 22 23 26 27 29 24 23 30 21 25 24 26 20 24 22 21 30 26 20
+25 24 21 23 27 29 26 22 20 21 23 22 30 26 29 26 28 27 22 20 27 29 26 30 28 27 26 23
 29 21 22 25 27 24 21 29 25 24 20 25 23 22 30 28 27 29 25 20 24 21 23 20 23 21 29 26
 ```
 
-After running the file we se it is a bourne again shell script. However, there is also a lot of binary data in the file. After running strings we see the following string.
+After running the file we see it is a bourne again shell script. However, there is also a lot of binary data in the file. After running strings we see the following string.
 ```
 #!/bin/bash
 export TMPDIR=`mktemp -d /tmp/selfextract.XXXXXX`
